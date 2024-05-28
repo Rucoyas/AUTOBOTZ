@@ -1,7 +1,7 @@
 module.exports = {
   name: 'upt',
   description: 'Uptime of the bot',
-  author: 'deku', //converted to NashBot
+  author: 'Alex Jhon Ponce', //converted to NashBot
   nashPrefix: false,
   execute(api, event, args, prefix, commands) {
     const uptimeMessage = calculateUptime();
