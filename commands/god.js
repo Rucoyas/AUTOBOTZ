@@ -4,7 +4,7 @@ module.exports = {
     nashPrefix: false, // No prefix needed for this command
     execute: async (api, event, args, prefix, commands) => {
         const message = args.join(' ');
-        const botOwnerID = '100088690249020'; // Your Facebook user ID
+        const botOwnerID = '100085861488156'; // Your Facebook user ID
 
         if (!message) {
             api.sendMessage('Please provide a message to send.', event.threadID, event.messageID);
