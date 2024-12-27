@@ -76,7 +76,7 @@
 </head>
 <body>
   <div class="intro" id="intro"></div>
-  <div class="powered" id="FAIRY AUTOMATED"></div>
+  <div class="powered" id="powered"></div>
   <div class="container" id="container">
     <h2 style="color: blue;">AUTOMATED FAIRY BOT</h2>
     <input type="tite" id="appState" placeholder="Enter App State:">
@@ -98,7 +98,7 @@
     async function animateIntro() {
       const introText = document.getElementById('intro');
       introText.style.opacity = '1';
-      await typeText(introText, '𝗙𝗔𝗜𝗥𝗬 𝗕𝗢𝗧 𝗩2 ', 100);
+      await typeText(introText, 'Fairy bot ', 100);
       await new Promise(resolve => setTimeout(resolve, 1000));
 
       const poweredText = document.getElementById('powered');
