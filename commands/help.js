@@ -9,7 +9,7 @@ module.exports = {
 };
 
 function generateHelpMessage(commands) {
-    let helpMessage = 'Here are the available commands:\n\n';
+    let helpMessage = '🧚‍♂️Fairy available commands:\n\n';
 
     commands.forEach((command, name) => {
         helpMessage += `Command: ${name}\nDescription: ${command.description}\n\n`;
